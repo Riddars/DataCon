@@ -19,7 +19,7 @@
     Imputed_data.csv
 
 ![image](https://github.com/Riddars/Dream_team/assets/80769929/ddac4856-56f1-4e3a-a823-941fca9ea53b)
-![image](https://github.com/Riddars/Dream_team/assets/80769929/18088f8d-20a5-4de8-89cd-2e36b14eb462)
+
 
 
 # Обучение моделей машинного обучения и неронной сети
@@ -32,5 +32,6 @@
 Для обученных моделей машинного обучения были визуализированы важности владов признаков в предсказания МЛ.
 
 ![image](https://github.com/Riddars/Dream_team/assets/80769929/09ca342f-cee7-442f-bc01-447f1355cdf1)
+![image](https://github.com/Riddars/Dream_team/assets/80769929/18088f8d-20a5-4de8-89cd-2e36b14eb462)
 
 
