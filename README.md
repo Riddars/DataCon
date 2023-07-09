@@ -16,7 +16,7 @@
 
 # Обучение моделей машинного обучения и неронной сети
 
-| ------------- | ExtraTreesRegressor  | Gradient Boosting Regressor | Neural Network | 
+| ------------- | ExtraTreesRegressor | Gradient Boosting Regressor | Neural Network | 
 | $R^2$ | 0.83 | 0.78 | 0.84 |
-| RMSE | 3.68  | 3.52 | 3.49 |
+| RMSE | 3.68 | 3.52 | 3.49 |
 
