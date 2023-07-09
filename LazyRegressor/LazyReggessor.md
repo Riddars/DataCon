@@ -3,5 +3,5 @@
 Модель ExtraTreesRegressor была обучена на полном датасете (Imputed_data.csv) и выгружена в файл ExtraTreesRegressor.sav
 Также были рассчитаны признаки, вносящие наибольший вклад в предсказание:
 
-![alt text]([http://url/to/img.png](https://github.com/Riddars/Dream_team/blob/main/LazyRegressor/feature_importance.png)https://github.com/Riddars/Dream_team/blob/main/LazyRegressor/feature_importance.png)
+![plot]([http://url/to/img.png](https://github.com/Riddars/Dream_team/blob/main/LazyRegressor/feature_importance.png)https://github.com/Riddars/Dream_team/blob/main/LazyRegressor/feature_importance.png)
 
