@@ -1,4 +1,4 @@
-![image](https://github.com/Riddars/Dream_team/assets/80769929/5bd482a3-bda3-4275-a718-5953937b817c)# Dream_team
+# Dream_team
 
 # Исходные данные
 
