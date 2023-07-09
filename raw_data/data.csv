@@ -1,0 +1,951 @@
+,Unnamed: 0,Bacteria,NP_Synthesis,Drug,Drug_class_drug_bank,Drug_dose,NP_concentration,NP size_min,NP size_max,NP size_avg,shape,method,ZOI_drug,ZOI_NP,ZOI_drug_NP,fold_increase_in_antibacterial_activity (%),MDR_check
+0,86,Escherichia coli,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,4.0,10.0,8.0,spherical,MIC,32+,6.3,32+,,1
+1,87,Escherichia coli,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,32+,6.3,32+,,1
+2,679,Escherichia coli,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,15.0,30.0,28.0,spherical,MIC,32+,25,32+,,1
+3,680,Escherichia coli,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,32+,25,32+,,1
+4,638,Micrococcus luteus,green_synthesis from fungus  Aspergillus flavus,Vancomycin,Carboxylic acids and derivatives,30.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,14,17+2,7.02,1
+5,639,Micrococcus luteus,green_synthesis from fungus  Aspergillus flavus,Gentamicin,Aminoglycosides,10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,14,17+2,7.02,1
+6,300,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,12,,15,0.6,0
+7,764,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,500,,62.5,,1
+8,432,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,50,4.2,0
+9,488,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,46,,48,0.1,0
+10,490,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,48,,48,0.0,0
+11,489,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,47,,47,0.0,0
+12,487,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,44,,44,0.0,0
+13,479,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,30,,42,1.0,0
+14,140,Escherichia coli,green_synthesis using Ulva fasciata ,Azithromycin,"
+Organooxygen compounds",15.0,170/85/42.5,14.45,15.55,15.0,spherical,disc_diffusion,28,,41,,0
+15,138,Salmonella enterica,green_synthesis using Ulva fasciata ,Chloramphenicol,Benzene and substituted derivatives,30.0,170/85/42.33,14.45,15.55,15.0,spherical,disc_diffusion,27,,40,,0
+16,139,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Azithromycin,"
+Organooxygen compounds",15.0,170/85/42.15,14.45,15.55,15.0,spherical,disc_diffusion,27,,40,,0
+17,145,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Oxytetracycline,"
+Tetracyclines",30.0,170/85/42.24,14.45,15.55,15.0,spherical,disc_diffusion,32,,40,,0
+18,485,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,40,,40,0.0,0
+19,486,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,40,,40,0.0,0
+20,478,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,30,,39,0.7,0
+21,659,Bacillus spp.        ,green_synthesis from fungus  Aspergillus flavus,ciprofloxacin,"
+Quinolines and derivatives",10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,23,15,38,1.73,0
+22,134,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Ampicillin,Lactams,20.0,170/85/42.20,14.45,15.55,15.0,spherical,disc_diffusion,25,,38,,0
+23,484,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,34,,38,0.2,0
+24,125,Escherichia coli,green_synthesis using Ulva fasciata ,Cefuroxime,Lactams,30.0,170/85/42.11,14.45,15.55,15.0,spherical,disc_diffusion,0,,37,,1
+25,467,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,26,,37,0.1,0
+26,708,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Co-trimoxazole,Benzene and substituted derivatives; Phenol ethers,2.0,10,5.0,32.0,22.5,spherical,disc_diffusion,37,,37,0.0,0
+27,124,Salmonella enterica,green_synthesis using Ulva fasciata ,Oxacillin,Carboxylic acids and derivatives,1.0,170/85/42.27,14.45,15.55,15.0,spherical,disc_diffusion,0,,36,,1
+28,137,Escherichia coli,green_synthesis using Ulva fasciata ,Chloramphenicol,Benzene and substituted derivatives,30.0,170/85/42.13,14.45,15.55,15.0,spherical,disc_diffusion,27,,36,,0
+29,724,Salmonella  typhi,green_synthesis  using fungus Trichoderma,Chloramphenicol,Benzene and substituted derivatives,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,29,,36,0.2414,0
+30,744,Salmonella  typhi,green_synthesis from fungus Trichoderma viride,Chloramphenicol,Benzene and substituted derivatives,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,29,,36,0.2424,0
+31,707,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Co-trimoxazole,Benzene and substituted derivatives; Phenol ethers,2.0,10,5.0,32.0,22.5,spherical,disc_diffusion,36,,36,0.0,0
+32,130,Salmonella enterica,green_synthesis using Ulva fasciata ,Oxytetracycline,"
+Tetracyclines",30.0,170/85/42.34,14.45,15.55,15.0,spherical,disc_diffusion,20,,35,,0
+33,657,Klebsiella pneumoniae,green_synthesis from fungus  Aspergillus flavus,ciprofloxacin,"
+Quinolines and derivatives",10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,22,14,35,1.53,0
+34,122,Escherichia coli,green_synthesis using Ulva fasciata ,Cefotaxime,Lactams,40.0,170/85/42.8,14.45,15.55,15.0,spherical,disc_diffusion,0,,34,,1
+35,123,Salmonella enterica,green_synthesis using Ulva fasciata ,Fosfomycin,"
+Organic phosphonic acids and derivatives",50.0,170/85/42.32,14.45,15.55,15.0,spherical,disc_diffusion,0,,34,,1
+36,416,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,34,1.9,0
+37,853,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,mupirocin,Fatty Acyls,,,5.0,80.0,60.0,spherical,disc_diffusion,22,13,34,,0
+38,858,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,Neomycin,NC,,,5.0,80.0,60.0,spherical,disc_diffusion,25,15,34,,0
+39,141,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Chloramphenicol,Benzene and substituted derivatives,30.0,170/85/42.23,14.45,15.55,15.0,spherical,disc_diffusion,29,,34,,0
+40,482,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,34,,34,0.0,0
+41,483,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,34,,34,0.0,0
+42,121,Escherichia coli,green_synthesis using Ulva fasciata ,Fosfomycin,"
+Organic phosphonic acids and derivatives",50.0,170/85/42.12,14.45,15.55,15.0,spherical,disc_diffusion,0,,32,,1
+43,129,Salmonella enterica,green_synthesis using Ulva fasciata ,Azithromycin,"
+Organooxygen compounds",15.0,170/85/42.25,14.45,15.55,15.0,spherical,disc_diffusion,20,,32,,0
+44,851,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,Gentamicin,Aminoglycosides,,,5.0,80.0,60.0,spherical,disc_diffusion,21,13,32,,0
+45,452,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,32,0.8,0
+46,453,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,32,0.8,0
+47,143,Escherichia coli,green_synthesis using Ulva fasciata ,Ampicillin,Lactams,20.0,170/85/42.10,14.45,15.55,15.0,spherical,disc_diffusion,30,,32,,0
+48,859,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,mupirocin,Fatty Acyls,,,5.0,80.0,60.0,spherical,disc_diffusion,31,14,32,,0
+49,480,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,32,,32,0.0,0
+50,481,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,32,,32,0.0,0
+51,62,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MIC,1000,64,32,,1
+52,757,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,250,,31.25,,1
+53,759,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,500,,31.25,,1
+54,760,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,500,,31.25,,1
+55,761,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,500,,31.25,,1
+56,762,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,500,,31.25,,1
+57,763,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,500,,31.25,,1
+58,265,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,8,,31,14.0,0
+59,849,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,Gentamicin,Aminoglycosides,,,5.0,80.0,60.0,spherical,disc_diffusion,21,14,31,,0
+60,850,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,Vancomycin,Carboxylic acids and derivatives,,,5.0,80.0,60.0,spherical,disc_diffusion,21,14,31,,0
+61,723,Salmonella  typhi,green_synthesis  using fungus Trichoderma,Erythromycin,Organooxygen compounds,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,24,,31,0.2917,0
+62,743,Salmonella  typhi,green_synthesis from fungus Trichoderma viride,Erythromycin,Organooxygen compounds,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,24,,31,0.2917,0
+63,855,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,cefazolin,Lactams,,,5.0,80.0,60.0,spherical,disc_diffusion,23,12,30,,0
+64,856,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,Vancomycin,Carboxylic acids and derivatives,,,5.0,80.0,60.0,spherical,disc_diffusion,24,14,30,,0
+65,474,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,30,,30,0.0,0
+66,475,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,30,,30,0.0,0
+67,476,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,30,,30,0.0,0
+68,477,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,30,,30,0.0,0
+69,857,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,cefazolin,Lactams,,,5.0,80.0,60.0,spherical,disc_diffusion,25,13,29,,0
+70,660,Staphylococcus aureus,green_synthesis from fungus  Aspergillus flavus,ciprofloxacin,"
+Quinolines and derivatives",10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,28,16,29,0.07,0
+71,473,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,29,,29,0.0,0
+72,706,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Cefixime ,Lactams,5.0,10,5.0,32.0,22.5,spherical,disc_diffusion,29,,29,0.0,0
+73,126,Salmonella enterica,green_synthesis using Ulva fasciata ,Neomycin,NC,30.0,170/85/42.29,14.45,15.55,15.0,spherical,disc_diffusion,14,,28,,0
+74,127,Salmonella enterica,green_synthesis using Ulva fasciata ,Gentamicin,Aminoglycosides,10.0,170/85/42.26,14.45,15.55,15.0,spherical,disc_diffusion,17,,28,,0
+75,845,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,Tetracycline,Tetracyclines,,,5.0,80.0,60.0,spherical,disc_diffusion,18,17,28,,0
+76,131,Salmonella enterica,green_synthesis using Ulva fasciata ,Cefotaxime,Lactams,40.0,170/85/42.28,14.45,15.55,15.0,spherical,disc_diffusion,21,,28,,0
+77,722,Escherichia coli,green_synthesis  using fungus Trichoderma,Chloramphenicol,Benzene and substituted derivatives,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,22,,28,0.2727,0
+78,742,Escherichia coli,green_synthesis from fungus Trichoderma viride,Chloramphenicol,Benzene and substituted derivatives,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,22,,28,0.2727,0
+79,852,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,cefazolin,Lactams,,,5.0,80.0,60.0,spherical,disc_diffusion,22,20,28,,0
+80,136,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Gentamicin,Aminoglycosides,10.0,170/85/42.16,14.45,15.55,15.0,spherical,disc_diffusion,27,,28,,0
+81,471,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,28,,28,0.0,0
+82,472,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,28,,28,0.0,0
+83,704,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Carbenicillin ,Carboxylic acids and derivatives,100.0,10,5.0,32.0,22.5,spherical,disc_diffusion,28,,28,0.0,0
+84,705,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Cefixime ,Lactams,5.0,10,5.0,32.0,22.5,spherical,disc_diffusion,28,,28,0.0,0
+85,144,Escherichia coli,green_synthesis using Ulva fasciata ,Gentamicin,Aminoglycosides,10.0,170/85/42.6,14.45,15.55,15.0,spherical,disc_diffusion,31,,28,,0
+86,415,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,27,0.8,0
+87,847,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,Tetracycline,Tetracyclines,,,5.0,80.0,60.0,spherical,disc_diffusion,20,13,27,,0
+88,848,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,Neomycin,NC,,,5.0,80.0,60.0,spherical,disc_diffusion,20,13.5,27,,0
+89,461,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,25,,27,0.2,0
+90,468,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,27,,27,0.0,0
+91,469,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,27,,27,0.0,0
+92,470,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,27,,27,0.0,0
+93,703,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Amikacin,"
+Organooxygen compounds",30.0,10,5.0,32.0,22.5,spherical,disc_diffusion,27,,27,0.0,0
+94,414,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,26,0.7,0
+95,854,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,Gentamicin,Aminoglycosides,,,5.0,80.0,60.0,spherical,disc_diffusion,23,13,26,,0
+96,460,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,25,,26,0.1,0
+97,462,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,26,,26,0.0,0
+98,463,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,26,,26,0.0,0
+99,464,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,26,,26,0.0,0
+100,465,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,26,,26,0.0,0
+101,466,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,26,,26,0.0,0
+102,702,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Carbenicillin ,Carboxylic acids and derivatives,100.0,10,5.0,32.0,22.5,spherical,disc_diffusion,26,,26,0.0,0
+103,120,Salmonella enterica,green_synthesis using Ulva fasciata ,Cefuroxime,Lactams,30.0,170/85/42.31,14.45,15.55,15.0,spherical,disc_diffusion,0,,25,,1
+104,259,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,25,11.8,0
+105,776,Salmonella  typhi,green_synthesis  by Bacillus sp.,Levofloxacin,"
+Quinolines and derivatives",5.0,10,14.0,42.0,28.0,spherical,disc_diffusion,20,13,25,0.56,0
+106,655,Bacillus spp.        ,green_synthesis from fungus  Aspergillus flavus,Imipenem,Lactams,,100,5.0,30.0,21.0,spherical,disc_diffusion,21,15,25,0.42,0
+107,656,Klebsiella pneumoniae,green_synthesis from fungus  Aspergillus flavus,Gentamicin,Aminoglycosides,10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,22,14,25,0.29,0
+108,443,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,25,0.2,0
+109,658,Staphylococcus aureus,green_synthesis from fungus  Aspergillus flavus,Imipenem,Lactams,,100,5.0,30.0,21.0,spherical,disc_diffusion,23,16,25,0.18,0
+110,449,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,25,0.1,0
+111,450,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,25,0.0,0
+112,451,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,25,0.1,0
+113,454,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,25,,25,0.0,0
+114,455,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,25,,25,0.0,0
+115,456,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,25,,25,0.0,0
+116,457,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,25,,25,0.0,0
+117,458,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,25,,25,0.0,0
+118,459,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,25,,25,0.0,0
+119,696,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Nitrofurantoin,Azolidines,300.0,10,5.0,32.0,22.5,spherical,disc_diffusion,25,,25,0.0,0
+120,697,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Nalidixic acid,"
+Diazanaphthalenes",30.0,10,5.0,32.0,22.5,spherical,disc_diffusion,25,,25,0.0,0
+121,698,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Nalidixic acid,"
+Diazanaphthalenes",30.0,10,5.0,32.0,22.5,spherical,disc_diffusion,25,,25,0.0,0
+122,699,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Tetracycline,Tetracyclines,25.0,10,5.0,32.0,22.5,spherical,disc_diffusion,25,,25,0.0,0
+123,700,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Tetracycline,Tetracyclines,25.0,10,5.0,32.0,22.5,spherical,disc_diffusion,25,,25,0.0,0
+124,701,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Gentamicin,Aminoglycosides,10.0,10,5.0,32.0,22.5,spherical,disc_diffusion,25,,25,0.0,0
+125,778,Staphylococcus epidermidis,green_synthesis  by Bacillus sp.,Fusidic acid ,"
+Steroids and steroid derivatives",30.0,10,14.0,42.0,28.0,spherical,disc_diffusion,25,15,25,0.0,0
+126,135,Escherichia coli,green_synthesis using Ulva fasciata ,Neomycin,NC,30.0,170/85/42.9,14.45,15.55,15.0,spherical,disc_diffusion,27,,25,,0
+127,142,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Neomycin,NC,30.0,170/85/42.19,14.45,15.55,15.0,spherical,disc_diffusion,30,,25,,0
+128,119,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Cefotaxime,Lactams,40.0,170/85/42.18,14.45,15.55,15.0,spherical,disc_diffusion,0,,24,,1
+129,843,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,mupirocin,Fatty Acyls,,,5.0,80.0,60.0,spherical,disc_diffusion,0,21,24,,1
+130,388,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,24,0.8,0
+131,653,Bacillus spp.        ,green_synthesis from fungus  Aspergillus flavus,Gentamicin,Aminoglycosides,10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,21,15,24,0.31,0
+132,654,Klebsiella pneumoniae,green_synthesis from fungus  Aspergillus flavus,Imipenem,Lactams,,100,5.0,30.0,21.0,spherical,disc_diffusion,21,14,24,0.31,0
+133,133,Salmonella enterica,green_synthesis using Ulva fasciata ,Ampicillin,Lactams,20.0,170/85/42.30,14.45,15.55,15.0,spherical,disc_diffusion,22,,24,,0
+134,430,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,24,0.2,0
+135,431,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,24,0.2,0
+136,444,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,24,0.0,0
+137,445,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,24,0.0,0
+138,446,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,24,0.0,0
+139,447,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,24,0.0,0
+140,448,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,24,,24,0.0,0
+141,695,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Gentamicin,Aminoglycosides,10.0,10,5.0,32.0,22.5,spherical,disc_diffusion,24,,24,0.0,0
+142,428,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,23,0.1,0
+143,429,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,23,0.1,0
+144,777,Staphylococcus epidermidis,green_synthesis  by Bacillus sp.,Ciprofloxacin,"
+Quinolines and derivatives",30.0,10,14.0,42.0,28.0,spherical,disc_diffusion,22,19,23,0.09,0
+145,433,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+146,434,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+147,435,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+148,436,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+149,437,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+150,438,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+151,439,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+152,440,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+153,441,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+154,442,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,23,,23,0.0,0
+155,693,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Nitrofurantoin,Azolidines,300.0,10,5.0,32.0,22.5,spherical,disc_diffusion,23,,23,0.0,0
+156,694,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Amikacin,"
+Organooxygen compounds",30.0,10,5.0,32.0,22.5,spherical,disc_diffusion,23,,23,0.0,0
+157,146,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Oxacillin,Carboxylic acids and derivatives,1.0,170/85/42.17,14.45,15.55,15.0,spherical,disc_diffusion,33,,23,,0
+158,118,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Cefuroxime,Lactams,30.0,170/85/42.21,14.45,15.55,15.0,spherical,disc_diffusion,0,,22,,1
+159,319,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,22,1.5,0
+160,387,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,22,0.5,0
+161,412,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,22,0.2,0
+162,413,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,22,0.2,0
+163,652,Escherichia coli,green_synthesis from fungus  Aspergillus flavus,Imipenem,Lactams,,100,5.0,30.0,21.0,spherical,disc_diffusion,20,15,22,0.21,0
+164,846,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,Tetracycline,Tetracyclines,,,5.0,80.0,60.0,spherical,disc_diffusion,20,16,22,,0
+165,879,Enterococcus faecalis,green_synthesis using extract of Klebsiella pneumoniae,Gentamicin,Aminoglycosides,10.0,10,20.0,20.0,20.0,spherical,disc_diffusion,20,10,22,,0
+166,423,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,21,,22,0.1,0
+167,132,Escherichia coli,green_synthesis using Ulva fasciata ,Oxytetracycline,"
+Tetracyclines",30.0,170/85/42.14,14.45,15.55,15.0,spherical,disc_diffusion,22,,22,,0
+168,424,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,22,0.0,0
+169,425,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,22,0.0,0
+170,426,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,22,0.0,0
+171,427,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,22,,22,0.0,0
+172,841,Klebsiella pneumoniae,green_synthesis using C. zylinicum aqueous extracts,Gentamicin,Aminoglycosides,20.0,20,10.0,78.9,44.45,spherical,well_diffusion,20.7,24,21.5,,0
+173,719,Escherichia coli,green_synthesis  using fungus Trichoderma,Ampicillin,Lactams,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,12,,21,0.75,0
+174,739,Escherichia coli,green_synthesis from fungus Trichoderma viride,Ampicillin,Lactams,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,12,,21,0.75,0
+175,646,Staphylococcus aureus,green_synthesis from fungus  Aspergillus flavus,Gentamicin,Aminoglycosides,10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,15,16,21,0.96,0
+176,844,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,Vancomycin,Carboxylic acids and derivatives,,,5.0,80.0,60.0,spherical,disc_diffusion,18,18,21,,0
+177,651,Micrococcus luteus,green_synthesis from fungus  Aspergillus flavus,ciprofloxacin,"
+Quinolines and derivatives",10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,19,14,21,0.22,0
+178,878,Enterococcus faecalis,green_synthesis using extract of Klebsiella pneumoniae,Chloramphenicol,Benzene and substituted derivatives,10.0,10,20.0,20.0,20.0,spherical,disc_diffusion,19,10,21,,0
+179,417,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,21,,21,0.0,0
+180,418,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,21,,21,0.0,0
+181,419,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,21,,21,0.0,0
+182,420,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,21,,21,0.0,0
+183,421,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,21,,21,0.0,0
+184,422,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,21,,21,0.0,0
+185,840,Pseudomonas aeruginosa,green_synthesis using C. zylinicum aqueous extracts,Gentamicin,Aminoglycosides,20.0,20,10.0,78.9,44.45,spherical,well_diffusion,2.8,24,20.8,,0
+186,842,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,Neomycin,NC,,,5.0,80.0,60.0,spherical,disc_diffusion,0,18,20,,1
+187,258,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,20,7.2,0
+188,294,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,20,2.3,0
+189,717,Salmonella  typhi,green_synthesis  using fungus Trichoderma,Ampicillin,Lactams,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,11,,20,0.8182,0
+190,737,Salmonella  typhi,green_synthesis from fungus Trichoderma viride,Ampicillin,Lactams,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,11,,20,0.8182,0
+191,644,Pseudomonas aeruginosa,green_synthesis from fungus  Aspergillus flavus,Imipenem,Lactams,,100,5.0,30.0,21.0,spherical,disc_diffusion,12,14,20,1.78,0
+192,771,Salmonella  typhi,green_synthesis  by Bacillus sp.,Chloramphenicol,Benzene and substituted derivatives,50.0,10,14.0,42.0,28.0,spherical,disc_diffusion,13,13,20,1.37,0
+193,337,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,20,0.8,0
+194,774,Salmonella Paratyphi,green_synthesis  by Bacillus sp.,Levofloxacin,"
+Quinolines and derivatives",5.0,10,14.0,42.0,28.0,spherical,disc_diffusion,15,15,20,0.8,0
+195,354,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,20,0.6,0
+196,649,Enterococcus faecalis,green_synthesis from fungus  Aspergillus flavus,Imipenem,Lactams,,100,5.0,30.0,21.0,spherical,disc_diffusion,16,15,20,0.56,0
+197,368,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,20,0.4,0
+198,386,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,20,0.2,0
+199,650,Micrococcus luteus,green_synthesis from fungus  Aspergillus flavus,Imipenem,Lactams,,100,5.0,30.0,21.0,spherical,disc_diffusion,18,14,20,0.23,0
+200,128,Escherichia coli,green_synthesis using Ulva fasciata ,Oxacillin,Carboxylic acids and derivatives,1.0,170/85/42.7,14.45,15.55,15.0,spherical,disc_diffusion,19,,20,,0
+201,392,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,19,,20,0.1,0
+202,393,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,19,,20,0.1,0
+203,394,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,19,,20,0.1,0
+204,395,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+205,396,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+206,397,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+207,398,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+208,399,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+209,400,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+210,401,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+211,402,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+212,403,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+213,404,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+214,405,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+215,406,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+216,407,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+217,408,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+218,409,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+219,410,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+220,411,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,20,,20,0.0,0
+221,839,Acinetobacter baumanii,green_synthesis using C. zylinicum aqueous extracts,Gentamicin,Aminoglycosides,20.0,20,10.0,78.9,44.45,spherical,well_diffusion,17.3,22,19.9,,0
+222,716,Staphylococcus aureus,green_synthesis  using fungus Trichoderma,Ampicillin,Lactams,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,11,,19,0.7273,0
+223,736,Staphylococcus aureus,green_synthesis from fungus Trichoderma viride,Ampicillin,Lactams,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,11,,19,0.7273,0
+224,309,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,19,1.1,0
+225,721,Salmonella  typhi,green_synthesis  using fungus Trichoderma,Kanamycin,Organooxygen compounds,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,13,,19,0.4615,0
+226,741,Salmonella  typhi,green_synthesis from fungus Trichoderma viride,Kanamycin,Organooxygen compounds,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,13,,19,0.4615,0
+227,648,Bacillus spp.        ,green_synthesis from fungus  Aspergillus flavus,Vancomycin,Carboxylic acids and derivatives,30.0,100,5.0,30.0,21.0,spherical,disc_diffusion,16,15,19,0.41,0
+228,384,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,19,0.1,0
+229,385,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,19,0.1,0
+230,390,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,19,,19,0.0,0
+231,391,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,19,,19,0.0,0
+232,389,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18.5,,18.5,0.0,0
+233,117,Staphylococcus aureus,green_synthesis using Ulva fasciata ,Fosfomycin,"
+Organic phosphonic acids and derivatives",50.0,170/85/42.22,14.45,15.55,15.0,spherical,disc_diffusion,0,,18,,1
+234,642,Acinetobacter baumanii,green_synthesis from fungus  Aspergillus flavus,ciprofloxacin,"
+Quinolines and derivatives",10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,8,15,18,4.06,0
+235,271,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,9,,18,3.0,0
+236,283,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,18,2.2,0
+237,645,Pseudomonas aeruginosa,green_synthesis from fungus  Aspergillus flavus,Gentamicin,Aminoglycosides,10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,14,14,18,0.65,0
+238,334,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,18,0.4,0
+239,335,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,18,0.4,0
+240,336,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,18,0.4,0
+241,351,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,18,0.3,0
+242,352,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,18,0.3,0
+243,353,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,18,0.3,0
+244,647,Klebsiella pneumoniae,green_synthesis from fungus  Aspergillus flavus,Vancomycin,Carboxylic acids and derivatives,30.0,100,5.0,30.0,21.0,spherical,disc_diffusion,16,14,18,0.27,0
+245,369,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+246,370,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+247,371,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+248,372,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+249,373,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+250,374,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+251,375,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+252,376,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+253,377,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+254,378,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+255,379,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+256,380,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+257,381,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+258,382,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+259,383,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,18,,18,0.0,0
+260,775,Staphylococcus epidermidis,green_synthesis  by Bacillus sp.,Ciprofloxacin,"
+Quinolines and derivatives",30.0,10,14.0,42.0,28.0,spherical,disc_diffusion,18,19,18,0.0,0
+261,640,Pseudomonas aeruginosa,green_synthesis from fungus  Aspergillus flavus,Vancomycin,Carboxylic acids and derivatives,30.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,14,17,7.02,1
+262,257,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,17,4.9,0
+263,715,Micrococcus luteus,green_synthesis  using fungus Trichoderma,Ampicillin,Lactams,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,10,,17,0.7,0
+264,735,Micrococcus luteus,green_synthesis from fungus Trichoderma viride,Ampicillin,Lactams,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,10,,17,0.7,0
+265,318,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,17,0.5,0
+266,348,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,17,0.1,0
+267,349,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,17,0.1,0
+268,350,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,17,0.1,0
+269,355,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+270,356,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+271,357,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+272,358,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+273,359,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+274,360,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+275,361,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+276,362,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+277,363,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+278,364,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+279,365,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+280,366,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+281,367,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Tetracycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,17,,17,0.0,0
+282,636,Enterococcus faecalis,green_synthesis from fungus  Aspergillus flavus,Trimethoprim,Phenol ethers,2.5,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,16,6.11,1
+283,637,Acinetobacter baumanii,green_synthesis from fungus  Aspergillus flavus,Gentamicin,Aminoglycosides,10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,16,6.11,1
+284,252,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,16,4.2,0
+285,253,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,16,4.2,0
+286,254,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,16,4.2,0
+287,255,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,16,4.2,0
+288,256,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,16,4.2,0
+289,264,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,8,,16,3.0,0
+290,718,Escherichia coli,green_synthesis  using fungus Trichoderma,Kanamycin,Organooxygen compounds,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,12,,16,0.3333,0
+291,738,Escherichia coli,green_synthesis from fungus Trichoderma viride,Kanamycin,Organooxygen compounds,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,12,,16,0.3333,0
+292,720,Escherichia coli,green_synthesis  using fungus Trichoderma,Erythromycin,Organooxygen compounds,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,13,,16,0.2308,0
+293,740,Escherichia coli,green_synthesis from fungus Trichoderma viride,Erythromycin,Organooxygen compounds,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,13,,16,0.2308,0
+294,317,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,16,0.3,0
+295,333,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,16,0.1,0
+296,773,Salmonella Paratyphi,green_synthesis  by Bacillus sp.,Nalidixic acid,"
+Diazanaphthalenes",30.0,10,14.0,42.0,28.0,spherical,disc_diffusion,15,15,16,0.14,0
+297,338,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+298,339,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+299,340,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+300,341,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+301,342,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+302,343,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+303,344,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+304,345,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+305,346,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+306,347,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,16,,16,0.0,0
+307,692,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Cephalexin ,Lactams,30.0,10,5.0,32.0,22.5,spherical,disc_diffusion,16,,16,0.0,0
+308,750,Proteus vulgaris,green_synthesis using Withania coagulans fruits extract,Levofloxacin,"
+Quinolines and derivatives",,,10.0,40.0,20.0,spherical,MIC,32,16,16,,0
+309,54,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MIC,64,64,16,,0
+310,55,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MIC,64,64,16,,0
+311,58,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MIC,1000,32,16,,1
+312,59,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MIC,1000,64,16,,1
+313,60,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MIC,1000,64,16,,1
+314,61,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MIC,1000,64,16,,1
+315,85,Escherichia coli,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,4.0,10.0,8.0,spherical,MIC,32+,6.3,16,,1
+316,282,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,15.3,1.3,0
+317,634,Pseudomonas aeruginosa,green_synthesis from fungus  Aspergillus flavus,ciprofloxacin,"
+Quinolines and derivatives",10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,14,15,5.25,1
+318,635,Staphylococcus aureus,green_synthesis from fungus  Aspergillus flavus,Trimethoprim,Phenol ethers,2.5,100,5.0,30.0,21.0,spherical,disc_diffusion,0,16,15,5.25,1
+319,247,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,15,3.6,0
+320,248,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,15,3.6,0
+321,249,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,15,3.6,0
+322,250,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,15,1.3,0
+323,251,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,15,3.6,0
+324,641,Enterococcus faecalis,green_synthesis from fungus  Aspergillus flavus,Gentamicin,Aminoglycosides,10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,8,15,15,2.51,0
+325,770,Staphylococcus aureus,green_synthesis  by Bacillus sp.,Erythromycin,Organooxygen compounds,15.0,10,14.0,42.0,28.0,spherical,disc_diffusion,10,18,15,1.25,0
+326,293,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,15,0.9,0
+327,308,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,15,0.3,0
+328,772,Staphylococcus epidermidis,green_synthesis  by Bacillus sp.,Gentamicin,Aminoglycosides,10.0,10,14.0,42.0,28.0,spherical,disc_diffusion,14,15,15,0.15,0
+329,320,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+330,321,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+331,322,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+332,323,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+333,324,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+334,325,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+335,326,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+336,327,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+337,328,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+338,329,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,,0
+339,330,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+340,331,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+341,332,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,15,,15,0.0,0
+342,691,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Cephalexin ,Lactams,30.0,10,5.0,32.0,22.5,spherical,disc_diffusion,15,,15,0.0,0
+343,815,Candida glochares,green_synthesis using extract of corn leaves,Amphotericin B,"
+Organooxygen compounds",5.0,50,31.0,69.0,45.26,spherical,disc_diffusion,,,14.75,,0
+344,814,Staphylococcus aureus,green_synthesis using extract of corn leaves,Rifampicin,Macrolactams,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,14.33,,0
+345,630,Acinetobacter baumanii,green_synthesis from fungus  Aspergillus flavus,Imipenem,Lactams,,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,14,4.44,1
+346,631,Enterococcus faecalis,green_synthesis from fungus  Aspergillus flavus,ciprofloxacin,"
+Quinolines and derivatives",10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,14,4.44,1
+347,632,Escherichia coli,green_synthesis from fungus  Aspergillus flavus,ciprofloxacin,"
+Quinolines and derivatives",10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,14,4.44,1
+348,633,Staphylococcus aureus,green_synthesis from fungus  Aspergillus flavus,Vancomycin,Carboxylic acids and derivatives,30.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,16,14,4.44,1
+349,767,Staphylococcus aureus,green_synthesis  by Bacillus sp.,Penicillin,Carboxylic acids and derivatives,10.0,10,14.0,42.0,28.0,spherical,disc_diffusion,0,18,14,44655.0,1
+350,245,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,14,3.0,0
+351,246,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,14,3.0,0
+352,686,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Amoxicillin,Lactams,10.0,10,5.0,32.0,22.5,spherical,disc_diffusion,7.5,,14,2.484,0
+353,270,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,9,,14,1.4,0
+354,281,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Piperacillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,14,1.0,0
+355,690,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Erythromycin,Organooxygen compounds,5.0,10,5.0,32.0,22.5,spherical,disc_diffusion,10,,14,0.96,0
+356,292,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,14,0.6,0
+357,299,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,12,,14,0.2,0
+358,307,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,14,0.2,0
+359,310,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,14,0.0,0
+360,311,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,14,0.0,0
+361,312,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,14,0.0,0
+362,313,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,14,0.0,0
+363,314,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,14,0.0,0
+364,315,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,14,0.0,0
+365,316,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,14,,14,0.0,0
+366,622,Pseudomonas aeruginosa,green_synthesis from fungus  Aspergillus flavus,Trimethoprim,Phenol ethers,2.5,100,5.0,30.0,21.0,spherical,disc_diffusion,0,14,13,3.69,1
+367,623,Acinetobacter baumanii,green_synthesis from fungus  Aspergillus flavus,Vancomycin,Carboxylic acids and derivatives,30.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,13,3.69,1
+368,624,Acinetobacter baumanii,green_synthesis from fungus  Aspergillus flavus,Trimethoprim,Phenol ethers,2.5,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,13,3.69,1
+369,625,Bacillus spp.        ,green_synthesis from fungus  Aspergillus flavus,Trimethoprim,Phenol ethers,2.5,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,13,3.69,1
+370,626,Enterococcus faecalis,green_synthesis from fungus  Aspergillus flavus,Vancomycin,Carboxylic acids and derivatives,30.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,13,3.69,1
+371,627,Micrococcus luteus,green_synthesis from fungus  Aspergillus flavus,Trimethoprim,Phenol ethers,2.5,100,5.0,30.0,21.0,spherical,disc_diffusion,0,14,13,3.69,1
+372,628,Escherichia coli,green_synthesis from fungus  Aspergillus flavus,Trimethoprim,Phenol ethers,2.5,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,13,3.69,1
+373,629,Escherichia coli,green_synthesis from fungus  Aspergillus flavus,Vancomycin,Carboxylic acids and derivatives,30.0,100,5.0,30.0,21.0,spherical,disc_diffusion,0,15,13,3.69,1
+374,685,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Vancomycin,Carboxylic acids and derivatives,30.0,10,5.0,32.0,22.5,spherical,disc_diffusion,0,,13,2.45,1
+375,234,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+376,235,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+377,236,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+378,237,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+379,238,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+380,239,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+381,240,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+382,241,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+383,242,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+384,243,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+385,244,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,13,2.4,0
+386,280,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,13,0.7,0
+387,769,Staphylococcus epidermidis,green_synthesis  by Bacillus sp.,Fusidic acid ,"
+Steroids and steroid derivatives",30.0,10,14.0,42.0,28.0,spherical,disc_diffusion,10,19,13,0.7,0
+388,291,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,13,0.4,0
+389,298,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,12,,13,0.0,0
+390,301,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,13,0.0,0
+391,302,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Faropenem,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,13,0.0,0
+392,303,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,13,0.0,0
+393,304,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,13,0.0,0
+394,305,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,13,0.0,0
+395,306,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,13,,13,0.0,0
+396,813,Candida albicans,green_synthesis using extract of corn leaves,Amphotericin B,"
+Organooxygen compounds",5.0,50,31.0,69.0,45.26,spherical,disc_diffusion,,,12.88,,0
+397,812,Salmonella typhimurium ,green_synthesis using extract of corn leaves,Kanamycin,Organooxygen compounds,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,12.8,,0
+398,811,Bacillus cereus,green_synthesis using extract of corn leaves,Rifampicin,Macrolactams,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,12.76,,0
+399,810,Staphylococcus aureus,green_synthesis using extract of corn leaves,Kanamycin,Organooxygen compounds,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,12.57,,0
+400,809,Escherichia coli,green_synthesis using extract of corn leaves,Kanamycin,Organooxygen compounds,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,12.45,,0
+401,621,Klebsiella pneumoniae,green_synthesis from fungus  Aspergillus flavus,Trimethoprim,Phenol ethers,2.5,100,5.0,30.0,21.0,spherical,disc_diffusion,0,14,12,3.0,1
+402,684,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Penicillin,Carboxylic acids and derivatives,10.0,10,5.0,32.0,22.5,spherical,disc_diffusion,0,,12,1.938,1
+403,766,Vibrio cholerae,green_synthesis  by Bacillus sp.,Ampicillin,Lactams,25.0,10,14.0,42.0,28.0,spherical,disc_diffusion,0,18,12,3.0,1
+404,228,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,12,1.9,0
+405,229,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,12,1.9,0
+406,230,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,12,1.9,0
+407,231,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,12,1.9,0
+408,232,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,12,1.9,0
+409,233,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,12,1.9,0
+410,687,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Penicillin,Carboxylic acids and derivatives,10.0,10,5.0,32.0,22.5,spherical,disc_diffusion,8,,12,1.25,0
+411,688,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Erythromycin,Organooxygen compounds,5.0,10,5.0,32.0,22.5,spherical,disc_diffusion,8,,12,1.25,0
+412,269,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,9,,12,0.8,0
+413,643,Escherichia coli,green_synthesis from fungus  Aspergillus flavus,Gentamicin,Aminoglycosides,10.0,100,5.0,30.0,21.0,spherical,disc_diffusion,9,15,12,0.78,0
+414,279,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,12,0.4,0
+415,689,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Amoxicillin,Lactams,10.0,10,5.0,32.0,22.5,spherical,disc_diffusion,10,,12,0.44,0
+416,287,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,12,0.2,0
+417,288,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,12,0.2,0
+418,289,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,12,0.2,0
+419,290,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,12,0.2,0
+420,295,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,12,,12,0.0,0
+421,296,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,12,,12,0.0,0
+422,297,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,12,,12,0.0,0
+423,808,Bacillus cereus,green_synthesis using extract of corn leaves,Kanamycin,Organooxygen compounds,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,11.67,,0
+424,807,Listeria monocytogenes,green_synthesis using extract of corn leaves,Rifampicin,Macrolactams,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,11.64,,0
+425,806,Salmonella typhimurium ,green_synthesis using extract of corn leaves,Rifampicin,Macrolactams,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,11.45,,0
+426,805,Escherichia coli,green_synthesis using extract of corn leaves,Rifampicin,Macrolactams,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,11.43,,0
+427,219,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+428,220,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+429,221,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+430,222,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+431,223,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+432,224,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+433,225,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+434,226,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+435,227,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,11,1.5,0
+436,712,Staphylococcus aureus,green_synthesis  using fungus Trichoderma,Kanamycin,Organooxygen compounds,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,9,,11,0.2222,0
+437,732,Staphylococcus aureus,green_synthesis from fungus Trichoderma viride,Kanamycin,Organooxygen compounds,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,9,,11,0.2222,0
+438,713,Micrococcus luteus,green_synthesis  using fungus Trichoderma,Chloramphenicol,Benzene and substituted derivatives,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,10,,11,0.1,0
+439,714,Micrococcus luteus,green_synthesis  using fungus Trichoderma,Kanamycin,Organooxygen compounds,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,10,,11,0.1,0
+440,733,Micrococcus luteus,green_synthesis from fungus Trichoderma viride,Chloramphenicol,Benzene and substituted derivatives,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,10,,11,0.1,0
+441,734,Micrococcus luteus,green_synthesis from fungus Trichoderma viride,Kanamycin,Organooxygen compounds,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,10,,11,0.1,0
+442,284,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,11,0.0,0
+443,285,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,11,0.0,0
+444,286,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,11,,11,0.0,0
+445,804,Candida glabrata,green_synthesis using extract of corn leaves,Amphotericin B,"
+Organooxygen compounds",5.0,50,31.0,69.0,45.26,spherical,disc_diffusion,,,10.98,,0
+446,803,Listeria monocytogenes,green_synthesis using extract of corn leaves,Kanamycin,Organooxygen compounds,5.0,25,31.0,69.0,45.26,spherical,disc_diffusion,,,10.62,,0
+447,802,Candida albicans,green_synthesis using extract of corn leaves,Amphotericin B,"
+Organooxygen compounds",5.0,50,31.0,69.0,45.26,spherical,disc_diffusion,,,10.34,,0
+448,683,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Vancomycin,Carboxylic acids and derivatives,30.0,10,5.0,32.0,22.5,spherical,disc_diffusion,0,,10,1.04,1
+449,765,Vibrio cholerae,green_synthesis  by Bacillus sp.,Erythromycin,Organooxygen compounds,15.0,10,14.0,42.0,28.0,spherical,disc_diffusion,0,18,10,44774.0,1
+450,210,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+451,211,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+452,212,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+453,213,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+454,214,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+455,215,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+456,216,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+457,217,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Streptomycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+458,218,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,10,1.0,0
+459,768,Staphylococcus epidermidis,green_synthesis  by Bacillus sp.,Gentamicin,Aminoglycosides,10.0,10,14.0,42.0,28.0,spherical,disc_diffusion,7,19,10,44652.0,0
+460,263,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,8,,10,0.6,0
+461,710,Staphylococcus aureus,green_synthesis  using fungus Trichoderma,Chloramphenicol,Benzene and substituted derivatives,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,9,,10,0.1111,0
+462,711,Staphylococcus aureus,green_synthesis  using fungus Trichoderma,Erythromycin,Organooxygen compounds,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,9,,10,0.1111,0
+463,730,Staphylococcus aureus,green_synthesis from fungus Trichoderma viride,Chloramphenicol,Benzene and substituted derivatives,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,9,,10,0.1111,0
+464,731,Staphylococcus aureus,green_synthesis from fungus Trichoderma viride,Erythromycin,Organooxygen compounds,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,9,,10,0.1111,0
+465,272,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,10,0.0,0
+466,273,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,10,0.0,0
+467,274,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,10,0.0,0
+468,275,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Chloramphenicol,Benzene and substituted derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,10,0.0,0
+469,276,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Doxycycline,Tetracyclines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,10,0.0,0
+470,277,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Penicillin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,10,0.0,0
+471,278,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,10,,10,0.0,0
+472,816,Candida saitoana,green_synthesis using extract of corn leaves,Amphotericin B,"
+Organooxygen compounds",5.0,50,31.0,69.0,45.26,spherical,disc_diffusion,,,9.74,,0
+473,681,Escherichia coli,green_synthesis by Klebsiella pneumoniae,Clindamycin ,NC,300.0,10,5.0,32.0,22.5,spherical,disc_diffusion,0,,9,0.653,1
+474,682,Staphylococcus aureus,green_synthesis by Klebsiella pneumoniae,Clindamycin ,NC,300.0,10,5.0,32.0,22.5,spherical,disc_diffusion,0,,9,0.653,1
+475,204,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,9,0.7,0
+476,205,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Gentamicin,Aminoglycosides,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,9,0.7,0
+477,206,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Kanamycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,9,0.7,0
+478,207,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,9,0.7,0
+479,208,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,9,0.7,0
+480,209,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,9,0.7,0
+481,709,Micrococcus luteus,green_synthesis  using fungus Trichoderma,Erythromycin,Organooxygen compounds,10.0,10,5.0,40.0,13.0,spherical,disc_diffusion,8,,9,0.125,0
+482,729,Micrococcus luteus,green_synthesis from fungus Trichoderma viride,Erythromycin,Organooxygen compounds,10.0,,5.0,40.0,18.0,spherical,disc_diffusion,8,,9,0.125,0
+483,266,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,9,,9,0.0,0
+484,267,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,9,,9,0.0,0
+485,268,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,9,,9,0.0,0
+486,193,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Amikacin,"
+Organooxygen compounds",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+487,194,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Amoxicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+488,195,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+489,196,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+490,197,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+491,198,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Erythromycin,Organooxygen compounds,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+492,199,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+493,200,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+494,201,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+495,202,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+496,203,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,8,0.3,0
+497,81,Actinobacillus pleuropneumoniae ,chem_synthesis_reduction_by_D_maltose,colistin ,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,8,25,8,,0
+498,82,Actinobacillus pleuropneumoniae ,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,4.0,10.0,8.0,spherical,MIC,8,25,8,,0
+499,260,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftazidime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,8,,8,0.0,0
+500,261,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,8,,8,0.0,0
+501,262,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,8,,8,0.0,0
+502,749,Vibrio cholerae,green_synthesis using Withania coagulans fruits extract,Levofloxacin,"
+Quinolines and derivatives",,,10.0,40.0,20.0,spherical,MIC,8,16,8,,0
+503,49,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MIC,32,32,8,,0
+504,50,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MIC,32,64,8,,0
+505,52,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MIC,64,32,8,,0
+506,53,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MIC,64,64,8,,0
+507,57,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MIC,1000,64,8,,1
+508,84,Actinobacillus pleuropneumoniae ,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,4.0,10.0,8.0,spherical,MIC,32+,25,8,,1
+509,676,Escherichia coli,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,15.0,30.0,28.0,spherical,MIC,32+,25,8,,1
+510,677,Actinobacillus pleuropneumoniae ,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,15.0,30.0,28.0,spherical,MIC,32+,50,8,,1
+511,678,Actinobacillus pleuropneumoniae ,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,32+,50,8,,1
+512,758,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,500,,7.81,,1
+513,183,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Ampicillin,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+514,184,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Cefotaxime,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+515,185,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,Ceftriaxone,Lactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+516,186,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,Nalidixic acid,"
+Diazanaphthalenes",500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+517,187,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Nitrofurantoin,Azolidines,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+518,188,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Polymyxin,NC,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+519,189,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,Rifampicin,Macrolactams,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+520,190,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+521,191,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,Trimethoprim,Phenol ethers,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+522,192,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,Vancomycin,Carboxylic acids and derivatives,500.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,7,,7,0.0,0
+523,838,Staphylococcus aureus,green_synthesis using C. zylinicum aqueous extracts,Gentamicin,Aminoglycosides,20.0,20,10.0,78.9,44.45,spherical,well_diffusion,0.46,25,4.8,,0
+524,44,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MIC,8,64,4,,0
+525,45,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MIC,8,64,4,,0
+526,46,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MIC,16,32,4,,0
+527,47,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MIC,16,64,4,,0
+528,56,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MIC,1000,8,4,,1
+529,77,Salmonella enterica,chem_synthesis_reduction_by_D_maltose,colistin ,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,4,12.5,2,,0
+530,670,Salmonella enterica,chem_synthesis_reduction_by_D_maltose,colistin ,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,4,25,2,,0
+531,43,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MIC,8,8,2,,0
+532,79,Escherichia coli,chem_synthesis_reduction_by_D_maltose,colistin ,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,8,6.3,2,,0
+533,80,Pasteurella Multocida,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,4.0,10.0,8.0,spherical,MIC,8,100,2,,0
+534,673,Escherichia coli,chem_synthesis_reduction_by_D_maltose,colistin ,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,8,25,2,,0
+535,674,Actinobacillus pleuropneumoniae ,chem_synthesis_reduction_by_D_maltose,colistin ,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,8,50,2,,0
+536,675,Pasteurella Multocida,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,15.0,30.0,28.0,spherical,MIC,8,50+,2,,0
+537,48,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MIC,32,8,2,,0
+538,51,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MIC,64,8,2,,0
+539,83,Actinobacillus pleuropneumoniae ,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,32+,25,2,,1
+540,860,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,mupirocin,Fatty Acyls,,,5.0,80.0,60.0,spherical,MIC,0,2.5,1.75,,0
+541,861,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,Neomycin,NC,,,5.0,80.0,60.0,spherical,MIC,0,2.5,1.75,,0
+542,73,Salmonella enterica,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,4.0,10.0,8.0,spherical,MIC,1,12.5,1,,0
+543,666,Salmonella enterica,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,15.0,30.0,28.0,spherical,MIC,1,25,1,,0
+544,75,Salmonella enterica,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,2,12.5,1,,0
+545,667,Salmonella enterica,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,2,25,1,,0
+546,668,Staphylococcus aureus,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,15.0,30.0,28.0,spherical,MIC,2,50+,1,,0
+547,78,Pasteurella Multocida,chem_synthesis_reduction_by_D_maltose,colistin ,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,8,100,1,,0
+548,672,Pasteurella Multocida,chem_synthesis_reduction_by_D_maltose,colistin ,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,8,50+,1,,0
+549,756,Staphylococcus epidermidis,chem_synthesis by silver nitrate,Gentamicin,Aminoglycosides,,,20.0,40.0,30.0,spherical,MIC,125,,0.97,,1
+550,876,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,Tetracycline,Tetracyclines,,,5.0,80.0,60.0,spherical,MIC,1.25,2.5,0.8,,0
+551,872,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,Vancomycin,Carboxylic acids and derivatives,,,5.0,80.0,60.0,spherical,MIC,0.625,2.5,0.6,,0
+552,873,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,cefazolin,Lactams,,,5.0,80.0,60.0,spherical,MIC,0.625,5,0.6,,0
+553,874,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,Gentamicin,Aminoglycosides,,,5.0,80.0,60.0,spherical,MIC,1.25,5,0.6,,0
+554,875,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,Tetracycline,Tetracyclines,,,5.0,80.0,60.0,spherical,MIC,1.25,5,0.6,,0
+555,865,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,cefazolin,Lactams,,,5.0,80.0,60.0,spherical,MIC,0.3125,2.5,0.5,,0
+556,665,Staphylococcus aureus,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,1,50+,0.5,,0
+557,74,Staphylococcus aureus,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,4.0,10.0,8.0,spherical,MIC,2,25,0.5,,0
+558,747,Escherichia coli,green_synthesis using Withania coagulans fruits extract,Levofloxacin,"
+Quinolines and derivatives",,,10.0,40.0,20.0,spherical,MIC,2,16,0.5,,0
+559,76,Staphylococcus aureus,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,4.0,10.0,8.0,spherical,MIC,4,25,0.5,,0
+560,871,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,Gentamicin,Aminoglycosides,,,5.0,80.0,60.0,spherical,MIC,0.625,2.5,0.4,,0
+561,863,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,Gentamicin,Aminoglycosides,,,5.0,80.0,60.0,spherical,MIC,0.3125,2.5,0.3,,0
+562,864,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,Vancomycin,Carboxylic acids and derivatives,,,5.0,80.0,60.0,spherical,MIC,0.3125,2.5,0.3,,0
+563,866,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,cefazolin,Lactams,,,5.0,80.0,60.0,spherical,MIC,0.625,2.5,0.3,,0
+564,867,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,Tetracycline,Tetracyclines,,,5.0,80.0,60.0,spherical,MIC,0.625,2.5,0.3,,0
+565,868,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,mupirocin,Fatty Acyls,,,5.0,80.0,60.0,spherical,MIC,0.625,5,0.3,,0
+566,869,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,Neomycin,NC,,,5.0,80.0,60.0,spherical,MIC,0.625,5,0.3,,0
+567,870,Staphylococcus aureus,green_synthesis from fungus  Phytophthora infestans,Vancomycin,Carboxylic acids and derivatives,,,5.0,80.0,60.0,spherical,MIC,0.625,5,0.3,,0
+568,70,Streptococcus uberis,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,4.0,10.0,8.0,spherical,MIC,0.25,6.3,0.25,,0
+569,662,Streptococcus uberis,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,15.0,30.0,28.0,spherical,MIC,0.25,6.3,0.25,,0
+570,663,Pasteurella Multocida,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,15.0,30.0,28.0,spherical,MIC,0.25,50+,0.25,,0
+571,72,Salmonella enterica,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,4.0,10.0,8.0,spherical,MIC,1,12.5,0.25,,0
+572,664,Salmonella enterica,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,15.0,30.0,28.0,spherical,MIC,1,25,0.25,,0
+573,745,Staphylococcus aureus,green_synthesis using Withania coagulans fruits extract,Levofloxacin,"
+Quinolines and derivatives",,,10.0,40.0,20.0,spherical,MIC,1,4,0.25,,0
+574,746,Salmonella  typhi,green_synthesis using Withania coagulans fruits extract,Levofloxacin,"
+Quinolines and derivatives",,,10.0,40.0,20.0,spherical,MIC,1,32,0.25,,0
+575,669,Staphylococcus aureus,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,15.0,30.0,28.0,spherical,MIC,4,50+,0.25,,0
+576,671,Actinobacillus pleuropneumoniae ,chem_synthesis_reduction_by_D_maltose,Gentamicin,Aminoglycosides,,,15.0,30.0,28.0,spherical,MIC,8,50,0.25,,1
+577,748,Enterococcus faecalis,green_synthesis using Withania coagulans fruits extract,Levofloxacin,"
+Quinolines and derivatives",,,10.0,40.0,20.0,spherical,MIC,8,32,0.25,,0
+578,69,Pasteurella Multocida,chem_synthesis_reduction_by_D_maltose,Amoxicillin,Lactams,,,4.0,10.0,8.0,spherical,MIC,0.25,100,0.125,,0
+579,71,Staphylococcus aureus,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,1,25,0.125,,0
+580,862,Pseudomonas aeruginosa,green_synthesis from fungus  Phytophthora infestans,mupirocin,Fatty Acyls,,,5.0,80.0,60.0,spherical,MIC,0.3125,2.5,0.1,,0
+581,68,Pasteurella Multocida,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,4.0,10.0,8.0,spherical,MIC,0.03,100,0.03,,0
+582,661,Pasteurella Multocida,chem_synthesis_reduction_by_D_maltose,Penicillin,Carboxylic acids and derivatives,,,15.0,30.0,28.0,spherical,MIC,0.03,50+,0.03,,0
+583,877,Escherichia coli,green_synthesis from fungus  Phytophthora infestans,Neomycin,NC,,,5.0,80.0,60.0,spherical,MIC,2.5,2.5,0,,0
+584,782,Bacillus subtilis,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Biapenem,Biapenem,,,20.0,50.0,35.0,spherical,MIC,0.01,11,,,0
+585,783,Salmonella typhimurium ,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Aztreonam,Lactams,,,20.0,50.0,35.0,spherical,MIC,0.05,10,,,0
+586,784,Escherichia coli,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Biapenem,Biapenem,,,20.0,50.0,35.0,spherical,MIC,0.05,10,,,0
+587,785,Salmonella typhimurium ,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Biapenem,Biapenem,,,20.0,50.0,35.0,spherical,MIC,0.05,10,,,0
+588,786,Staphylococcus aureus,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Aztreonam,Lactams,,,20.0,50.0,35.0,spherical,MIC,0.05,12,,,0
+589,787,Staphylococcus aureus,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Biapenem,Biapenem,,,20.0,50.0,35.0,spherical,MIC,0.05,12,,,0
+590,788,Escherichia coli,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Kanamycin,Organooxygen compounds,,,20.0,50.0,35.0,spherical,MIC,0.1,10,,,0
+591,789,Bacillus subtilis,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Ampicillin,Lactams,,,20.0,50.0,35.0,spherical,MIC,0.1,11,,,0
+592,790,Staphylococcus aureus,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Chloramphenicol,Benzene and substituted derivatives,,,20.0,50.0,35.0,spherical,MIC,0.1,12,,,0
+593,791,Salmonella typhimurium ,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Kanamycin,Organooxygen compounds,,,20.0,50.0,35.0,spherical,MIC,0.25,10,,,0
+594,792,Bacillus subtilis,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Kanamycin,Organooxygen compounds,,,20.0,50.0,35.0,spherical,MIC,0.25,11,,,0
+595,793,Salmonella typhimurium ,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Ampicillin,Lactams,,,20.0,50.0,35.0,spherical,MIC,0.5,10,,,0
+596,794,Staphylococcus aureus,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Ampicillin,Lactams,,,20.0,50.0,35.0,spherical,MIC,0.5,12,,,0
+597,795,Escherichia coli,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Chloramphenicol,Benzene and substituted derivatives,,,20.0,50.0,35.0,spherical,MIC,0.75,10,,,0
+598,0,Pseudomonas aeruginosa,chem_synthesis,Chloramphenicol,Benzene and substituted derivatives,,,3.0,3.0,3.0,spherical,MIC,1,0.5,,,0
+599,796,Escherichia coli,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Aztreonam,Lactams,,,20.0,50.0,35.0,spherical,MIC,1,10,,,0
+600,797,Salmonella typhimurium ,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Chloramphenicol,Benzene and substituted derivatives,,,20.0,50.0,35.0,spherical,MIC,1,10,,,0
+601,1,Enterococcus faecium,chem_synthesis,Ampicillin,Lactams,,,3.0,3.0,3.0,spherical,MIC,2,0.25,,,0
+602,2,Enterococcus faecium,chem_synthesis,Kanamycin,Organooxygen compounds,,,3.0,3.0,3.0,spherical,MIC,2,0.25,,,0
+603,3,Pseudomonas aeruginosa,chem_synthesis,Ampicillin,Lactams,,,3.0,3.0,3.0,spherical,MIC,2,0.5,,,0
+604,4,Escherichia coli,chem_synthesis,Chloramphenicol,Benzene and substituted derivatives,,,3.0,3.0,3.0,spherical,MIC,2,0.5,,,0
+605,5,Staphylococcus aureus,chem_synthesis,Chloramphenicol,Benzene and substituted derivatives,,,3.0,3.0,3.0,spherical,MIC,2,0.5,,,0
+606,6,Pseudomonas aeruginosa,chem_synthesis,Kanamycin,Organooxygen compounds,,,3.0,3.0,3.0,spherical,MIC,2,0.5,,,0
+607,7,Streptococcus mutans,chem_synthesis,Ampicillin,Lactams,,,3.0,3.0,3.0,spherical,MIC,2,2,,,0
+608,798,Escherichia coli,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Ampicillin,Lactams,,,20.0,50.0,35.0,spherical,MIC,2,10,,,0
+609,8,Enterococcus faecium,chem_synthesis,Chloramphenicol,Benzene and substituted derivatives,,,3.0,3.0,3.0,spherical,MIC,4,0.25,,,0
+610,9,Escherichia coli,chem_synthesis,Ampicillin,Lactams,,,3.0,3.0,3.0,spherical,MIC,4,0.5,,,0
+611,10,Staphylococcus aureus,chem_synthesis,Ampicillin,Lactams,,,3.0,3.0,3.0,spherical,MIC,4,0.5,,,0
+612,11,Escherichia coli,chem_synthesis,Kanamycin,Organooxygen compounds,,,3.0,3.0,3.0,spherical,MIC,4,0.5,,,0
+613,12,Staphylococcus aureus,chem_synthesis,Kanamycin,Organooxygen compounds,,,3.0,3.0,3.0,spherical,MIC,4,0.5,,,0
+614,13,Escherichia coli,chem_synthesis,Chloramphenicol,Benzene and substituted derivatives,,,3.0,3.0,3.0,spherical,MIC,4,2,,,0
+615,14,Streptococcus mutans,chem_synthesis,Chloramphenicol,Benzene and substituted derivatives,,,3.0,3.0,3.0,spherical,MIC,4,2,,,0
+616,15,Escherichia coli,chem_synthesis,Kanamycin,Organooxygen compounds,,,3.0,3.0,3.0,spherical,MIC,4,2,,,0
+617,16,Streptococcus mutans,chem_synthesis,Kanamycin,Organooxygen compounds,,,3.0,3.0,3.0,spherical,MIC,4,2,,,0
+618,17,Escherichia coli,chem_synthesis,Ampicillin,Lactams,,,3.0,3.0,3.0,spherical,MIC,8,2,,,0
+619,18,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MBC,16,,,,0
+620,19,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MBC,16,,,,0
+621,20,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MBC,16,,,,0
+622,799,Bacillus subtilis,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Chloramphenicol,Benzene and substituted derivatives,,,20.0,50.0,35.0,spherical,MIC,16,11,,,0
+623,21,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MBC,32,,,,0
+624,22,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,Imipenem,Lactams,,,1.0,9.0,4.7,spherical,MBC,32,,,,0
+625,800,Bacillus subtilis,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Aztreonam,Lactams,,,20.0,50.0,35.0,spherical,MIC,32,11,,,0
+626,801,Staphylococcus aureus,"chem_synthesis (purchased from Vector Vita Ltd, Novosibirsk, Russia",Kanamycin,Organooxygen compounds,,,20.0,50.0,35.0,spherical,MIC,32,12,,,0
+627,23,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MBC,64,,,,0
+628,24,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MBC,64,,,,0
+629,25,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MBC,64,,,,0
+630,26,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MBC,128,,,,0
+631,27,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MBC,128,,,,0
+632,28,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MBC,128,,,,0
+633,29,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MBC,128,,,,0
+634,30,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MBC,128,,,,0
+635,31,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,Cefepime,Lactams,,,1.0,9.0,4.7,spherical,MBC,1000,,,,1
+636,32,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,Ceftazidime,Lactams,,,1.0,9.0,4.7,spherical,MBC,1000,,,,1
+637,33,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MBC,1000,,,,1
+638,34,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MBC,1000,,,,1
+639,35,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MBC,1000,,,,1
+640,36,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MBC,1000,,,,1
+641,37,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,Ceftriaxone,Lactams,,,1.0,9.0,4.7,spherical,MBC,1000,,,,1
+642,38,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MBC,,16,,,0
+643,39,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MBC,,64,,,0
+644,40,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MBC,,128,,,0
+645,41,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MBC,,128,,,0
+646,42,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MBC,,128,,,0
+647,63,Acinetobacter baumanii,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MIC,,8,,,0
+648,64,Proteus sp.,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MIC,,32,,,0
+649,65,Escherichia coli,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MIC,,64,,,0
+650,66,Klebsiella sp.,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MIC,,64,,,0
+651,67,Pseudomonas aeruginosa,green_synthesis using extract of acinetobacter baumannii,,,,,1.0,9.0,4.7,spherical,MIC,,64,,,0
+652,88,Staphylococcus aureus,"chemical_synthesis (sigma aldrich, 730785)",,,,20,10.0,10.0,10.0,triangular,disc_diffusion,,10,,,0
+653,89,Staphylococcus aureus,"chemical_synthesis (sigma aldrich, 730785)",,,,,10.0,10.0,10.0,triangular,MBC,,0.31,,,0
+654,90,Staphylococcus aureus,"chemical_synthesis (sigma aldrich, 730785)",,,,,10.0,10.0,10.0,triangular,MBC,,2.5,,,0
+655,91,Staphylococcus aureus,"chemical_synthesis (sigma aldrich, 730785)",,,,,10.0,10.0,10.0,triangular,MIC,,0.09,,,1
+656,92,Staphylococcus aureus,"chemical_synthesis (sigma aldrich, 730785)",,,,,10.0,10.0,10.0,triangular,MIC,,0.47,,,0
+657,93,Bacillus subtilis,chemical_synthesis using sodium borohydride and silver ions,,,,102,2.26,10.34,3.0,spherical,disc_diffusion,,11,,,0
+658,94,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,100,2.26,10.34,3.0,spherical,disc_diffusion,,13,,,0
+659,95,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,100,2.26,10.34,3.0,spherical,disc_diffusion,,13,,,0
+660,96,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,100,2.26,10.34,3.0,spherical,disc_diffusion,,14,,,0
+661,97,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,100,2.26,10.34,3.0,spherical,disc_diffusion,,15,,,0
+662,98,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,104,2.26,10.34,3.0,spherical,disc_diffusion,,16,,,0
+663,99,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,100,2.26,10.34,3.0,spherical,disc_diffusion,,16,,,0
+664,100,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,100,2.26,10.34,3.0,spherical,disc_diffusion,,16,,,0
+665,101,Bacillus subtilis,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MBC,,60,,,0
+666,102,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MBC,,60,,,0
+667,103,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MBC,,160,,,0
+668,104,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MBC,,160,,,0
+669,105,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MBC,,160,,,0
+670,106,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MBC,,160,,,0
+671,107,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MBC,,180,,,0
+672,108,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MBC,,220,,,0
+673,109,Bacillus subtilis,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MIC,,40,,,0
+674,110,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MIC,,40,,,0
+675,111,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MIC,,120,,,0
+676,112,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MIC,,120,,,0
+677,113,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MIC,,120,,,0
+678,114,Staphylococcus aureus,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MIC,,120,,,0
+679,115,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MIC,,140,,,0
+680,116,Escherichia coli,chemical_synthesis using sodium borohydride and silver ions,,,,,2.26,10.34,3.0,spherical,MIC,,180,,,0
+681,147,Candida albicans,green_synthesis using Ulva fasciata ,,,,170,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+682,148,Candida albicans,green_synthesis using Ulva fasciata ,,,,85,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+683,149,Candida albicans,green_synthesis using Ulva fasciata ,,,,42.5,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+684,150,Candida albicans,green_synthesis using Ulva fasciata ,,,,21.25,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+685,151,Candida albicans,green_synthesis using Ulva fasciata ,,,,10.625,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+686,152,Candida albicans,green_synthesis using Ulva fasciata ,,,,2.65,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+687,153,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,2.65,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+688,154,Candida albicans,green_synthesis using Ulva fasciata ,,,,1.33,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+689,155,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,1.33,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+690,156,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,1.33,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+691,157,Candida albicans,green_synthesis using Ulva fasciata ,,,,0.66,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+692,158,Escherichia coli,green_synthesis using Ulva fasciata ,,,,0.66,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+693,159,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,0.66,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+694,160,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,0.66,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+695,161,Candida albicans,green_synthesis using Ulva fasciata ,,,,0.31,14.45,15.55,15.0,spherical,disc_diffusion,,0,,,1
+696,162,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,2.65,14.45,15.55,15.0,spherical,disc_diffusion,,11,,,0
+697,163,Escherichia coli,green_synthesis using Ulva fasciata ,,,,1.33,14.45,15.55,15.0,spherical,disc_diffusion,,11,,,0
+698,164,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,0.31,14.45,15.55,15.0,spherical,disc_diffusion,,11,,,0
+699,165,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,10.625,14.45,15.55,15.0,spherical,disc_diffusion,,12,,,0
+700,166,Escherichia coli,green_synthesis using Ulva fasciata ,,,,2.65,14.45,15.55,15.0,spherical,disc_diffusion,,13,,,0
+701,167,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,0.31,14.45,15.55,15.0,spherical,disc_diffusion,,13,,,0
+702,168,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,21.25,14.45,15.55,15.0,spherical,disc_diffusion,,14,,,0
+703,169,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,10.625,14.45,15.55,15.0,spherical,disc_diffusion,,14,,,0
+704,170,Escherichia coli,green_synthesis using Ulva fasciata ,,,,0.31,14.45,15.55,15.0,spherical,disc_diffusion,,14,,,0
+705,171,Escherichia coli,green_synthesis using Ulva fasciata ,,,,42.5,14.45,15.55,15.0,spherical,disc_diffusion,,15,,,0
+706,172,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,21.25,14.45,15.55,15.0,spherical,disc_diffusion,,15,,,0
+707,173,Escherichia coli,green_synthesis using Ulva fasciata ,,,,10.625,14.45,15.55,15.0,spherical,disc_diffusion,,15,,,0
+708,174,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,42.5,14.45,15.55,15.0,spherical,disc_diffusion,,16,,,0
+709,175,Escherichia coli,green_synthesis using Ulva fasciata ,,,,21.25,14.45,15.55,15.0,spherical,disc_diffusion,,16,,,0
+710,176,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,85,14.45,15.55,15.0,spherical,disc_diffusion,,18,,,0
+711,177,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,42.5,14.45,15.55,15.0,spherical,disc_diffusion,,19,,,0
+712,178,Salmonella enterica,green_synthesis using Ulva fasciata ,,,,170,14.45,15.55,15.0,spherical,disc_diffusion,,20,,,0
+713,179,Escherichia coli,green_synthesis using Ulva fasciata ,,,,85,14.45,15.55,15.0,spherical,disc_diffusion,,20,,,0
+714,180,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,85,14.45,15.55,15.0,spherical,disc_diffusion,,22,,,0
+715,181,Escherichia coli,green_synthesis using Ulva fasciata ,,,,170,14.45,15.55,15.0,spherical,disc_diffusion,,26,,,0
+716,182,Staphylococcus aureus,green_synthesis using Ulva fasciata ,,,,170,14.45,15.55,15.0,spherical,disc_diffusion,,27,,,0
+717,491,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+718,492,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+719,493,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+720,494,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+721,495,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+722,496,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+723,497,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+724,498,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+725,499,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+726,500,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+727,501,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+728,502,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+729,503,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+730,504,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+731,505,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+732,506,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+733,507,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+734,508,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+735,509,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+736,510,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+737,511,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+738,512,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+739,513,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+740,514,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+741,515,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+742,516,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+743,517,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+744,518,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+745,519,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+746,520,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+747,521,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+748,522,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+749,523,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+750,524,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+751,525,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+752,526,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+753,527,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+754,528,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+755,529,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+756,530,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+757,531,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+758,532,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+759,533,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+760,534,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+761,535,Proteus mirabilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+762,536,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+763,537,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+764,538,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+765,539,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+766,540,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+767,541,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,0,,,1
+768,542,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,7,,,0
+769,543,Staphylococcus aureus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+770,544,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+771,545,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+772,546,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+773,547,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+774,548,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+775,549,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+776,550,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+777,551,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,8,,,0
+778,552,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+779,553,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+780,554,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+781,555,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+782,556,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+783,557,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+784,558,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+785,559,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+786,560,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,9,,,0
+787,561,Pseudomonas aeruginosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,10,,,0
+788,562,Serratia odorifera,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,10,,,0
+789,563,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,10,,,0
+790,564,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,10,,,0
+791,565,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,10,,,0
+792,566,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,10,,,0
+793,567,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,10,,,0
+794,568,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,10,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,10,,,0
+795,569,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,11,,,0
+796,570,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,11,,,0
+797,571,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,11,,,0
+798,572,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,11,,,0
+799,573,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,11,,,0
+800,574,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,11,,,0
+801,575,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,11,,,0
+802,576,Enterobacter cloacae ,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+803,577,Haemophilus influenzae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+804,578,Pseudomonas koreensis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+805,579,Salmonella  typhi,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+806,580,Vibrio parahaemolyticus,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+807,581,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+808,582,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+809,583,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+810,584,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,20,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,12,,,0
+811,585,Acinetobacter baumanii,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,13,,,0
+812,586,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,13,,,0
+813,587,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,13,,,0
+814,588,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,14,,,0
+815,589,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,14,,,0
+816,590,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,30,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,14,,,0
+817,591,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,15,,,0
+818,592,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,15,,,0
+819,593,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,15,,,0
+820,594,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,50,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,15,,,0
+821,595,Klebsiella pneumoniae,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,16,,,0
+822,596,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,16,,,0
+823,597,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,100,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,16,,,0
+824,598,Bacillus subtilis,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,17,,,0
+825,599,Escherichia coli,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,18,,,0
+826,600,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,300,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,18,,,0
+827,601,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,500,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,20,,,0
+828,602,Neisseria mucosa,green_synthesis using Dioscorea bulbifera tuber extract ,,,0.0,1000,8.0,20.0,13.5,nanorods and triangles,disc_diffusion,,21,,,0
+829,603,Streptococcus pneumoniae,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,10,10.0,30.0,20.0,spherical,disc_diffusion,,14,,,0
+830,604,Bacillus subtilis,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,10,10.0,30.0,20.0,spherical,disc_diffusion,,14.6,,,0
+831,605,Staphylococcus aureus,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,10,10.0,30.0,20.0,spherical,disc_diffusion,,15.6,,,0
+832,606,Escherichia coli,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,10,10.0,30.0,20.0,spherical,disc_diffusion,,17,,,0
+833,607,Micrococcus luteus,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,10,10.0,30.0,20.0,spherical,disc_diffusion,,17.3,,,0
+834,608,Pseudomonas aeruginosa,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,10,10.0,30.0,20.0,spherical,disc_diffusion,,20.3,,,0
+835,609,Escherichia coli,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MBC,,6.3,,,0
+836,610,Staphylococcus aureus,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MBC,,6.3,,,0
+837,611,Micrococcus luteus,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MBC,,7.8,,,0
+838,612,Pseudomonas aeruginosa,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MBC,,8.1,,,0
+839,613,Bacillus subtilis,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MBC,,9.8,,,0
+840,614,Streptococcus pneumoniae,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MBC,,9.8,,,0
+841,615,Escherichia coli,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MIC,,4,,,0
+842,616,Staphylococcus aureus,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MIC,,4,,,0
+843,617,Micrococcus luteus,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MIC,,6.3,,,0
+844,618,Pseudomonas aeruginosa,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MIC,,6.3,,,0
+845,619,Bacillus subtilis,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MIC,,8.1,,,0
+846,620,Streptococcus pneumoniae,green_synthesis using aqueous Cassiarox burghii leaf extract,,,,,10.0,30.0,20.0,spherical,MIC,,8.1,,,0
+847,725,Escherichia coli,green_synthesis  using fungus Trichoderma,,,,,5.0,40.0,13.0,spherical,MIC,,30,,,0
+848,726,Salmonella  typhi,green_synthesis  using fungus Trichoderma,,,,,5.0,40.0,13.0,spherical,MIC,,35,,,0
+849,727,Micrococcus luteus,green_synthesis  using fungus Trichoderma,,,,,5.0,40.0,13.0,spherical,MIC,,65,,,0
+850,728,Staphylococcus aureus,green_synthesis  using fungus Trichoderma,,,,,5.0,40.0,13.0,spherical,MIC,,80,,,0
+851,751,Micrococcus luteus,green_synthesis using the methanolic extracts of marine algae (V. pachynema),,,,1000,30.0,40.0,35.0,spherical,disc_diffusion,,20.6,,,0
+852,752,Serratia marcescens,green_synthesis using the methanolic extracts of marine algae (V. pachynema),,,,1000,30.0,40.0,35.0,spherical,disc_diffusion,,26.6,,,0
+853,753,Staphylococcus aureus,"chemical_synthesis (sigma aldrich, 730785)",,,,20,40.0,40.0,40.0,triangular,disc_diffusion,,10,,,0
+854,754,Staphylococcus aureus,"chemical_synthesis (sigma aldrich, 730807)",,,,,40.0,40.0,40.0,triangular,MBC,,1.04,,,0
+855,755,Staphylococcus aureus,"chemical_synthesis (sigma aldrich, 730807)",,,,,40.0,40.0,40.0,triangular,MIC,,0.02,,,0
+856,779,Streptococcus pneumoniae,chemical_synthesis (East Nano Chemicals Co.),,,,,10.0,50.0,30.0,spherical,MIC,,4000,,,0
+857,780,Streptococcus pneumoniae,chemical_synthesis (East Nano Chemicals Co.),,,,,10.0,50.0,30.0,spherical,MIC,,4000,,,0
+858,781,Streptococcus pneumoniae,chemical_synthesis (East Nano Chemicals Co.),,,,,10.0,50.0,30.0,spherical,MIC,,4000,,,0
+859,817,Escherichia coli,green_synthesis using extract of corn leaves,,,,50,31.0,69.0,45.26,spherical,disc_diffusion,,10.55,,,0
+860,818,Salmonella typhimurium ,green_synthesis using extract of corn leaves,,,,50,31.0,69.0,45.26,spherical,disc_diffusion,,11.22,,,0
+861,819,Bacillus cereus,green_synthesis using extract of corn leaves,,,,50,31.0,69.0,45.26,spherical,disc_diffusion,,11.39,,,0
+862,820,Staphylococcus aureus,green_synthesis using extract of corn leaves,,,,50,31.0,69.0,45.26,spherical,disc_diffusion,,11.57,,,0
+863,821,Listeria monocytogenes,green_synthesis using extract of corn leaves,,,,50,31.0,69.0,45.26,spherical,disc_diffusion,,9.26,,,0
+864,822,Staphylococcus aureus,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MBC,,25,,,0
+865,823,Bacillus cereus,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MBC,,50,,,0
+866,824,Listeria monocytogenes,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MBC,,50,,,0
+867,825,Escherichia coli,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MBC,,100,,,0
+868,826,Salmonella typhimurium ,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MBC,,100,,,0
+869,827,Staphylococcus aureus,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MIC,,12.5,,,0
+870,828,Bacillus cereus,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MIC,,25,,,0
+871,829,Listeria monocytogenes,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MIC,,25,,,0
+872,830,Escherichia coli,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MIC,,50,,,0
+873,831,Salmonella typhimurium ,green_synthesis using extract of corn leaves,,,,,31.0,69.0,45.26,spherical,MIC,,50,,,0
+874,832,Serratia marcescens,green_synthesis using the methanolic extracts of marine algae (S. wightii),,,,1000,55.0,70.0,62.5,spherical,disc_diffusion,,14.3,,,0
+875,833,Micrococcus luteus,green_synthesis using the methanolic extracts of marine algae (S. wightii),,,,1000,55.0,70.0,62.5,spherical,disc_diffusion,,15.3,,,0
+876,834,Klebsiella pneumoniae,green_synthesis using C. zylinicum aqueous extracts,,,,,10.0,78.9,44.45,spherical,MIC,,2.8,,,0
+877,835,Pseudomonas aeruginosa,green_synthesis using C. zylinicum aqueous extracts,,,,,10.0,78.9,44.45,spherical,MIC,,3.1,,,0
+878,836,Staphylococcus aureus,green_synthesis using C. zylinicum aqueous extracts,,,,,10.0,78.9,44.45,spherical,MIC,,4.5,,,0
+879,837,Acinetobacter baumanii,green_synthesis using C. zylinicum aqueous extracts,,,,,10.0,78.9,44.45,spherical,MIC,,5.7,,,0
+880,880,Enterococcus faecalis,green_synthesis using extract of Klebsiella pneumoniae,,,,10,20.0,20.0,20.0,spherical,disc_diffusion,,10,,,0
+881,881,Enterococcus faecalis,green_synthesis using extract of Klebsiella pneumoniae,,,,20,20.0,20.0,20.0,spherical,disc_diffusion,,18,,,0
+882,882,Enterococcus faecalis,green_synthesis using extract of Klebsiella pneumoniae,,,,30,20.0,20.0,20.0,spherical,disc_diffusion,,23,,,0

@@ -1,0 +1,60 @@
+Tax_id,Bacteria,kingdom,subkingdom,clade,phylum,class,order,family,genus,species,gram,"min_Incub_period, h","avg_Incub_period, h","max_Incub_period, h","growth_temp, C",biosafety_level,isolated_from
+['470'],Acinetobacter baumannii,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Moraxellales,Moraxellaceae,Acinetobacter,Acinetobacter calcoaceticus/baumannii complex,n,24,36,48,37,2,urine
+['715'],Actinobacillus pleuropneumoniae,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Pasteurellales,Pasteurellaceae,Actinobacillus,Actinobacillus pleuropneumoniae,n,24,36,48,37,2,lungs
+['5599'],Alternaria alternata,Fungi,Dikarya,Opisthokonta,Ascomycota,Dothideomycetes,Pleosporales,Pleosporaceae,Alternaria,Alternaria alternata,,48,192,336,30,2,food
+['5059'],Aspergillus flavus,Fungi,Dikarya,Opisthokonta,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Aspergillus flavus,,24,36,48,37,2,soil
+['162425'],Aspergillus nidulans,Fungi,Dikarya,Opisthokonta,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Aspergillus nidulans,,24,36,48,30,1,soil
+['5061'],Aspergillus niger,Fungi,Dikarya,Opisthokonta,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Aspergillus,Aspergillus niger,,24,36,48,30,1,soil
+['1396'],Bacillus cereus,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus cereus group,p,4,10,16,30,2,food
+['1402'],Bacillus licheniformis,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus subtilis group,p,16,20,24,37,1,soil
+['1386'],Bacillus sp.,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,unclassified Bacillus,p,4,10,16,30,2,soil
+['1423'],Bacillus subtilis,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus subtilis group,p,0.16,7.08,14,30,1,soil
+['5476'],Candida albicans,Fungi,Dikarya,Opisthokonta,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida,Candida albicans,,48,84,120,37,2,mouth
+['5478'],Candida glabrata,Fungi,Dikarya,Opisthokonta,Ascomycota,Saccharomycetes,Saccharomycetales,Saccharomycetaceae,Nakaseomyces,Candida glabrata,,24,36,48,37,2,blood
+['45582'],Candida saitoana,Fungi,Dikarya,Opisthokonta,Ascomycota,Saccharomycetes,Saccharomycetales,Debaryomycetaceae,Candida glaebosa,Candida saitoana,,48,84,120,37,1,food
+['546'],Citrobacter freundii,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Citrobacter,Citrobacter freundii complex,n,12,18,24,37,2,water
+['29918'],Cladosporium herbarum,Fungi,Dikarya,Opisthokonta,Ascomycota,Dothideomycetes,Cladosporiales,Cladosporiaceae,Cladosporium,Cladosporium herbarum,,48,60,72,30,1,food
+['1725'],Corynebacterium xerosis,Bacteria,,Terrabacteria group,Actinomycetota,Actinomycetes,Mycobacteriales,Corynebacteriaceae,Corynebacterium,Corynebacterium xerosis,p,240,288,336,37,2,ear
+['550'],Enterobacter cloacae,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Enterobacter,Enterobacter cloacae complex,n,12,42,72,30,2,water
+['1351'],Enterococcus faecalis,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus faecalis,p,24,36,48,37,2,urine
+['1352'],Enterococcus faecium,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus faecium,p,24,36,48,37,2,blood
+['1350'],Enterococcus sp.,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus sp.,p,24,36,48,37,2,food
+['562'],Escherichia coli,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli,n,48,84,120,37,2,urine
+['1045010'],Escherichia coli O157,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli,n,48,84,120,37,2,urine
+['727'],Haemophilus influenzae,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Pasteurellales,Pasteurellaceae,Haemophilus,Haemophilus influenzae,n,24,36,48,37,2,respiratory tract
+['573'],Klebsiella pneumoniae,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella pneumoniae,n,24,48,72,30,2,respiratory tract
+['576'],Klebsiella sp.,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,Klebsiella sp.,n,24,48,72,37,2,respiratory tract
+['1358'],Lactococcus lactis,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis,p,12,18,24,22,1,food
+['1639'],Listeria monocytogenes,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Listeriaceae,Listeria,Listeria monocytogenes,p,24,36,48,37,2,food
+['1270'],Micrococcus luteus,Bacteria,,Terrabacteria group,Actinomycetota,Actinomycetes,Micrococcales,Micrococcaceae,Micrococcus,Micrococcus luteus,p,240,288,336,30,1,soil
+['488'],Neisseria mucosa,Bacteria,,,Pseudomonadota,Betaproteobacteria,Neisseriales,Neisseriaceae,Neisseria,Neisseria mucosa,n,24,36,48,30,2,sputum
+['747'],Pasteurella Multocida,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Pasteurellales,Pasteurellaceae,Pasteurella,Pasteurella Multocida,n,12,18,24,37,2,lungs
+['5076'],Pencillium chrysogenum,Fungi,Dikarya,Opisthokonta,Ascomycota,Eurotiomycetes,Eurotiales,Aspergillaceae,Penicillium,Pencillium chrysogenum,,24,48,72,30,1,soil
+['584'],Proteus mirabilis,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Proteus,Proteus mirabilis,n,24,48,72,37,2,urine
+['229037'],Proteus sp.,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Proteus,Proteus sp.,n,24,48,72,37,2,soil
+['585'],Proteus vulgaris,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Morganellaceae,Proteus,Proteus vulgaris,n,24,48,72,30,2,soil
+['287'],Pseudomonas aeruginosa,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas aeruginosa group,n,24,48,72,37,2,soil
+['198620'],Pseudomonas koreensis,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas fluorescens group,n,24,36,48,30,1,soil
+['303'],Pseudomonas putida,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas putida group,n,6,15,24,30,1,soil
+['306'],Pseudomonas sp.,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas,n,24,96,168,37,2,soil
+['4846'],Rhizopus stolonifer,Fungi,Dikarya,Opisthokonta,Mucoromycota,Mucoromycetes,Mucorales,Rhizopodaceae,Rhizopus,Rhizopus stolonifer,,24,72,120,30,1,food
+['28901'],Salmonella enterica,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella,Salmonella enterica,n,12,42,72,37,2,food
+['599'],Salmonella sp.,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella,Salmonella,n,12,24,36,37,2,intestinal tract
+['90370'],Salmonella typhi,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella,Salmonella enterica,n,168,252,336,37,2,blood
+['90371'],Salmonella typhimurium,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Salmonella,Salmonella enterica,n,6,39,72,37,2,meat
+['615'],Salmonella typhimurium ,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia marcescens,n,2,7,12,30,2,water
+['618'],Serratia odorifera,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia odorifera,n,,0,,30,1,soil
+['1280'],Staphylococcus aureus,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus aureus,p,24,36,48,37,2,skin
+['1282'],Staphylococcus epidermidis,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus epidermidis,p,24,36,48,37,2,nose
+['29385'],Staphylococcus saprophyticus,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus saprophyticus,p,18,21,24,30,2,urine
+['1296'],Staphylococcus sciuri,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Mammaliicoccus,Staphylococcus sciuri,p,18,33,48,37,1,skin
+['29387'],Staphylococcus sp.,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus,p,1,3.5,6,37,2,skin
+['1309'],Streptococcus mutans,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus mutans,p,24,36,48,37,2,carious dentine
+['1313'],Streptococcus pneumoniae,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus pneumoniae,p,24,36,48,37,2,respiratory tract
+['1314'],Streptococcus pyogenes,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus pyogenes,p,24,36,48,37,2,mouth
+['1349'],Streptococcus uberis,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus uberis,p,24,36,48,37,2,mammary gland
+['78535'],Streptococcus viridans,Bacteria,,Terrabacteria group,Bacillota,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus viridans,p,168,252,336,37,1,mouth
+['5544'],Trichoderma harzianum,Fungi,Dikarya,Opisthokonta,Ascomycota,Sordariomycetes,Hypocreales,Hypocreaceae,Trichoderma,Trichoderma harzianum,,48,84,120,30,1,soil
+['47278'],Trichothecium roseum,Fungi,Dikarya,Opisthokonta,Ascomycota,Sordariomycetes,Hypocreales,Hypocreales incertae sedis,Trichothecium,Trichothecium roseum,,48,108,168,30,1,wood
+['666'],Vibrio cholerae,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio cholerae,n,48,60,72,30,2,water
+['670'],Vibrio parahaemolyticus,Bacteria,,,Pseudomonadota,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio harveyi group,n,8,16,24,30,2,water
